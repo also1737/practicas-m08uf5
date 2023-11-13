@@ -33,7 +33,7 @@ h2 {
 	background-color: #111111;
 	margin: 0%;
 	line-height: 2cm;
-	border-style: none solid solid solid;
+	border-style: none none solid none;
 }
 
 li {
