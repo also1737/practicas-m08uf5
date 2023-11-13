@@ -1,4 +1,21 @@
 /*Práctica 1 ejercicio 1*/
+body{
+	background-color: #222222;
+	color: white;	
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: cyan;
+}
+
+a:active{
+	color: blue;
+}
+
 h1 {
 	color: blue;
 }
