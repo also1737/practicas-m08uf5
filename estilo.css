@@ -24,7 +24,10 @@ h1 {
 	line-height: 4cm;
 	font-size: 60px;
 	border-bottom-style: solid;
-	/*text-size-adjust: 1;*/
+	background-image: url(imagenes/istockphoto-512250305-612x612.jpg);
+	/*background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-size: cover;*/
 }
 
 h2 {
