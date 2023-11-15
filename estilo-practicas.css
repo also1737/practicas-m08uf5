@@ -17,3 +17,10 @@ a:hover{
 a:active{
 	color: blue;
 }
+
+table, tr, th, td {
+	border: 2px solid white;
+	border-collapse: collapse;
+	width: 40%;
+	text-align: center;
+}
