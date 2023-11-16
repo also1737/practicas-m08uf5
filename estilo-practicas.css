@@ -18,9 +18,8 @@ a:active{
 	color: blue;
 }
 
-table, tr, th, td {
+table, td, tr, th {
 	border: 2px solid white;
 	border-collapse: collapse;
-	margin: 50%;
-	text-align: center;
+	width: 50%;
 }
