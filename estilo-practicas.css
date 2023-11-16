@@ -21,6 +21,5 @@ a:active{
 table, tr, th, td {
 	border: 2px solid white;
 	border-collapse: collapse;
-	width: 40%;
 	text-align: center;
 }

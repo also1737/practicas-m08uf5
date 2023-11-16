@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../estilo-practicas.css">
     <title> Tabla avanzada </title>
+    <style>
+        td {
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,7 +24,7 @@
                     src="../imagenes/ej-9/mp3_grande_negro.png" alt="MP3 grande negro"><br> MP3 grande</th>
         </tr>
         <tr>
-            <td><b>Capacidad de almacenamiento</b></td>
+            <th>Capacidad de almacenamiento</th>
             <td>4 GB (1.000 canciones)</td>
             <td>8 GB (2.000 canciones)</td>
             <td>16 GB (4.000 canciones)</td>
@@ -27,7 +32,7 @@
             <td>80 GB (20.000 canciones)</td>
         </tr>
         <tr>
-            <td><b>Colores</b></td>
+            <th>Colores</th>
             <td>
                 <img src="../imagenes/ej-9/color_blanco.png" alt="Blanco">
             </td>
@@ -46,13 +51,17 @@
             </td>
         </tr>
         <tr>
-            <td><b>Pantalla</b></td>
+            <th>Pantalla</th>
+            <td colspan="3">LCD de 3cm (diagonal) con retroiluminación</td>
+            <td colspan="2">LCD de 6cm (diagonal) con retroiluminación</td>
         </tr>
         <tr>
-
+            <th rowspan="2">Tiempo de carga</th>
+            <td rowspan="2" colspan="3">Unas 3 horas</td>
+            <td colspan="2">Unas 4 horas</td>
         </tr>
         <tr>
-
+            <td colspan="2">Unas 2 horas para alcanzar el 80% de la capacidad</td>
         </tr>
     </table>
 </body>
