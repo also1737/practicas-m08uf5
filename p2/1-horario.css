@@ -1,5 +1,19 @@
-.centro {
-    margin: auto;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    background-color: #444444;
+    height: 46px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+td {
+    width: 120px;
+    height: 70px;
+    padding: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #cabecera {
@@ -8,7 +22,36 @@
     margin: auto;
     max-width: 766px;
     height: 80px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+#imag {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#uno {  
+    text-align: left; 
+    font-size: 40px;
+    line-height: 100px;
+}
+
+#dos { 
+    line-height: 120px;
+}
+
+#tres { 
+    line-height: 120px; 
+    text-align: right; 
+    text-decoration: underline; 
+    font-weight: 40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centro {
+    margin: auto;
+}
+
 
 .aula {
     font-style: italic;
@@ -19,16 +62,39 @@
     font-weight: bold;
 }
 
-.descanso {text-align: center; font-size: xx-large;}
+.descanso {
+    background-color: cadetblue;
+    text-align: center; 
+    font-size: xx-large;
+}
 
-span.uno { font-weight: bold; text-align: left; font-size: 40px;}
+.hora {
+    background-color: #444444;
+    text-align: center;
+    width: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
 
-span.dos { line-height: 120px;}
+.m04 {
+    background-color: darkblue;
+}
 
-span.tres { line-height: 120px; text-align: right; text-decoration: underline; font-weight: 50;}
+.m06 {
+    background-color: blueviolet;
+}
 
-td {
-    width: 3cm;
-    height: 1.5cm;
-    padding: 6px;
+.m07 {
+    background-color: darkmagenta;
+}
+
+.m08 {
+    background-color: darkred;
+}
+
+.m12 {
+    background-color: brown;
+}
+
+.tut {
+    background-color: red;
 }
