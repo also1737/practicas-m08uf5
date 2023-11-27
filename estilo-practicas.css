@@ -22,3 +22,24 @@ table, td, tr, th {
 	border: 2px solid white;
 	border-collapse: collapse;
 }
+
+#ej2-body {
+	margin-right: 50%;
+}
+
+#ej7b-ul {
+	line-height: 1.3;
+}
+
+#ej7b-dl {
+	line-height: 1.3;
+	margin-left: 1cm;
+}
+
+#ej9-h1 {
+	margin-left: 1.2cm;
+}
+
+#ej10-img {
+	margin-left: 3cm;
+}
