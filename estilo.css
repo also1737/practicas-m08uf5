@@ -19,11 +19,11 @@ a:active{
 
 h1 {
 	font-family: "Audiowide", sans-serif;
+	text-align:center;
 	background-color: rgb(15, 28, 104);
 	margin: 0%;
 	line-height: 4cm;
 	font-size: 60px;
-	border-bottom-style: solid;
 	background-image: url(imagenes/istockphoto-512250305-612x612.jpg);
 }
 
@@ -33,7 +33,9 @@ h2 {
 	background-color: #450045;
 	margin: 0%;
 	line-height: 2cm;
-	border-style: none none solid none;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid none solid none;
 }
 
 li {
@@ -44,4 +46,8 @@ li {
 .grid-container {
 	display: grid; 
 	grid-template-columns: 50% 50%;
+}
+
+.right {
+	border-left: white solid 3px;
 }
