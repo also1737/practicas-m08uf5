@@ -1,0 +1,58 @@
+.descanso {
+    background-image: url(../imagenes/2-ej-1/cat-gif-loop-wheel_grande.gif);
+    background-size: contain;
+}
+
+.hora {
+    background-image: url(../imagenes/2-ej-1/cat.gif);
+    background-size: cover;
+}
+
+.m04 {
+    background-color: darkblue;
+    background-image: url(../imagenes/2-ej-1/icegif-79.gif);
+    background-size: cover;
+}
+
+.m06 {
+    background-image: url(../imagenes/2-ej-1/437855c8c4fdd9903e5f324fe019f3ec.gif);
+    background-size: cover;
+}
+
+.m07 {
+    background-image: url(../imagenes/2-ej-1/FGmeancat.gif);
+    background-size: cover;
+}
+
+.m08 {
+    background-image: url(../imagenes/2-ej-1/cat-typing.gif);
+    background-size: cover;
+}
+
+.m12 {
+    background-image: url(../imagenes/2-ej-1/cat1.gif);
+    background-size: cover;
+}
+
+.tut {
+    background-image: url(../imagenes/2-ej-1/cat1.gif);
+    background-size: cover;
+}
+
+td {
+    background-image: url(../imagenes/2-ej-1/happy-happy-cat.gif);
+    background-size: contain;
+}
+
+th {
+    background-size: cover;
+    background-image: url(../imagenes/2-ej-1/cat.gif);
+}
+
+body {
+    color: black;
+}
+
+a {
+    color: black;
+}

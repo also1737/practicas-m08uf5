@@ -7,7 +7,9 @@ table {
     padding: 3px;
     border-width: 5px;
     border-collapse: collapse;
-    border-style: ridge;
+    outline-style: outset;
+    outline-color: rgb(172, 172, 172);
+    outline-width: 5px;
 }
 
 th {
@@ -28,9 +30,11 @@ td {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 #cabecera {
+    color: white;
     display: grid;
     grid-template-columns: auto auto auto;
     margin: auto;
@@ -52,6 +56,7 @@ a {
 
 #dos { 
     line-height: 120px;
+    text-align: center;
 }
 
 #tres { 
@@ -73,8 +78,10 @@ a {
 
 .descanso {
     background-color: cadetblue;
-    text-align: center; 
+    text-align: center;
+    color: white;
     font-size: xx-large;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 .hora {
