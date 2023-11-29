@@ -23,7 +23,6 @@ th {
 td {
     width: 130px;
     border-width: 3px;
-    border-radius: 5px;
     height: 50px;
     padding: 6px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -81,8 +80,13 @@ span#tres {
     float: left;
 }
 
+.profe {
+    float: left;
+}
+
 .aula {
     font-style: italic;
+    float: right;
     float: right;
 }
 
