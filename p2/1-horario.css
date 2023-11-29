@@ -14,7 +14,7 @@ table {
 
 th {
     background-color: #444444;
-    height: 46px;
+    height: 48px;
     border-width: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
@@ -23,6 +23,7 @@ th {
 td {
     width: 130px;
     border-width: 3px;
+    border-radius: 5px;
     height: 50px;
     padding: 6px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -30,16 +31,25 @@ td {
 
 a {
     text-decoration: none;
-    color: black;
 }
 
-#cabecera {
+p {
+    margin: auto;
+    height: min-content;
+    width: 50%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div#cabecera {
     color: white;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 20% 40% 40%;
     margin: auto;
     max-width: 809px;
-    height: 80px;
+    height: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -48,27 +58,32 @@ a {
     margin-bottom: 0px;
 }
 
-#uno {  
+span#uno {  
     text-align: left; 
     font-size: 40px;
-    line-height: 100px;
 }
 
-#dos { 
-    line-height: 120px;
+span#dos { 
+    line-height: 65px;
     text-align: center;
 }
 
-#tres { 
-    line-height: 120px; 
-    text-align: right; 
-    text-decoration: underline; 
+span#tres { 
+    line-height: 65px;
+    text-align: right;
+    vertical-align: bottom;
+    text-decoration: underline;
     font-weight: 40;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.profe {
+    float: left;
+}
+
 .aula {
     font-style: italic;
+    float: right;
 }
 
 .modulo {
