@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../estilo-practicas.css">
+        <link rel="stylesheet" href="1-formcv.css">
         <title>Formulario</title>
     </head>
     <body>
@@ -21,7 +22,7 @@
             </fieldset>
             <fieldset>
                 <legend><h2>Nacionalidad</h2></legend>
-                <input type="radio" id="español" name="nacionalidad">
+                <input type="radio" id="espanol" name="nacionalidad">
                 <label for="español">Español</label>
                 <input type="radio" id="com-ue" name="nacionalidad">
                 <label for="com-ue">Comunitario (UE)</label>
@@ -34,8 +35,8 @@
                     <option value="eso">ESO</option>
                     <option value="gm">GM</option>
                     <option value="gs">GS</option>
-                    <option value="uni">Universidad</option><br>
-                </select>
+                    <option value="uni">Universidad</option>
+                </select><br>
             </fieldset>
             <fieldset>
                 <legend><h2>Idiomas</h2></legend>
@@ -48,6 +49,10 @@
                 <input type="checkbox" id="cn" name="idiomas">
                 <label for="cn">Chino</label><br>
             </fieldset>
+            <div>
+                <br><button type="submit">Enviar</button>
+                <button type="reset">Cancelar</button><br>
+            </div>
         </form>
     </body>
 </html>
