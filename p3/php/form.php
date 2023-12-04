@@ -25,6 +25,6 @@ echo "<ul>$idiomas_seleccionados</ul>";
 
 
 
-echo '<img src="ok.gif" alt="Texto Alternativo para la imágen" class="Clase para la imágen" id="Identificador para la imágen" width="300px" height="300px">';
+echo '<img src="ok.gif" alt="Todo correcto" width="300px" height="300px">';
 
 ?>

@@ -7,8 +7,47 @@
     </head>
     <body>
         <h1>Currículum</h1>
-        <form>
-            
+        <form action="php/form.php">
+            <fieldset>
+                <legend><h2>Información básica</h2></legend>
+                <label for="nombre">Tu nombre</label><br>
+                <input type="text" id="nombre" name="nombre" value="Introduce tu nombre..."><br><br>
+                <label for="altura">Altura en centímetros</label><br>
+                <input type="number" id="altura" name="altura" min="1" max="300" value="160"><br><br>
+                <label for="email">Tu dirección de correo</label><br>
+                <input type="email" id="email" name="email" value="direccion@dominio.com"><br><br>
+                <label for="fecha">Fecha de nacimiento</label><br>
+                <input type="date" id="fecha" name="fecha"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Nacionalidad</h2></legend>
+                <input type="radio" id="español" name="nacionalidad">
+                <label for="español">Español</label>
+                <input type="radio" id="com-ue" name="nacionalidad">
+                <label for="com-ue">Comunitario (UE)</label>
+                <input type="radio" id="no-com" name="nacionalidad">
+                <label for="no-com">No comunitario</label>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Estudios</h2></legend>
+                <select id="estudios" name="estudios">
+                    <option value="eso">ESO</option>
+                    <option value="gm">GM</option>
+                    <option value="gs">GS</option>
+                    <option value="uni">Universidad</option><br>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Idiomas</h2></legend>
+                <input type="checkbox" id="es" name="idiomas">
+                <label for="es">Español</label>
+                <input type="checkbox" id="ca" name="idiomas">
+                <label for="ca">Catalán</label>
+                <input type="checkbox" id="en" name="idiomas">
+                <label for="en">Inglés</label>
+                <input type="checkbox" id="cn" name="idiomas">
+                <label for="cn">Chino</label><br>
+            </fieldset>
         </form>
     </body>
 </html>
