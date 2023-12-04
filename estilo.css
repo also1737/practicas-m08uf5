@@ -45,7 +45,7 @@ li {
 
 .grid-container {
 	display: grid; 
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 33% 34% 33%;
 }
 
 .right {
