@@ -8,38 +8,45 @@
     </head>
     <body>
         <h1>Currículum</h1>
-        <form action="php/form.php">
-            <fieldset>
+        <form action="php/form.php" target="_blank" method="post">
+            <p class="obli">Los campos marcados con * son obligatorios</p>
+            <fieldset id="info">
                 <legend><h2>Información básica</h2></legend>
-                <label for="nombre">Tu nombre</label><br>
-                <input type="text" id="nombre" name="nombre" value="Introduce tu nombre..."><br><br>
+                <label for="nombre">Tu nombre<span class="obli"> *</span></label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre..." required><br><br>
                 <label for="altura">Altura en centímetros</label><br>
                 <input type="number" id="altura" name="altura" min="1" max="300" value="160"><br><br>
-                <label for="email">Tu dirección de correo</label><br>
-                <input type="email" id="email" name="email" value="direccion@dominio.com"><br><br>
-                <label for="fecha">Fecha de nacimiento</label><br>
-                <input type="date" id="fecha" name="fecha"><br><br>
+                <label for="email">Tu dirección de correo<span class="obli"> *</span></label><br>
+                <input type="email" id="email" name="email" placeholder="direccion@dominio.com" required><br><br>
+                <label for="fecha">Fecha de nacimiento<span class="obli"> *</span></label><br>
+                <input type="date" id="fecha" name="fecha">
             </fieldset>
-            <fieldset>
-                <legend><h2>Nacionalidad</h2></legend>
-                <input type="radio" id="espanol" name="nacionalidad">
-                <label for="español">Español</label>
-                <input type="radio" id="com-ue" name="nacionalidad">
-                <label for="com-ue">Comunitario (UE)</label>
-                <input type="radio" id="no-com" name="nacionalidad">
-                <label for="no-com">No comunitario</label>
+            <fieldset id="nac">
+                <legend><h2>Nacionalidad<span class="obli"> *</span></h2></legend>
+                <span id="l-nac">
+                    <input type="radio" id="espanol" name="nacionalidad" required>
+                    <label for="español">Español</label>
+                </span>
+                <span id="c-nac">
+                    <input type="radio" id="com-ue" name="nacionalidad" required>
+                    <label for="com-ue">Comunitario (UE)</label>
+                </span>
+                <span id="r-nac">
+                    <input type="radio" id="no-com" name="nacionalidad" required>
+                    <label for="no-com">No comunitario</label>
+                </span>
             </fieldset>
-            <fieldset>
+            <fieldset id="est">
                 <legend><h2>Estudios</h2></legend>
                 <select id="estudios" name="estudios">
                     <option value="eso">ESO</option>
                     <option value="gm">GM</option>
                     <option value="gs">GS</option>
                     <option value="uni">Universidad</option>
-                </select><br>
+                </select>
             </fieldset>
-            <fieldset>
-                <legend><h2>Idiomas</h2></legend>
+            <fieldset id="idi">
+                <legend><h2>Idiomas<span class="obli"> *</span></h2></legend>
                 <input type="checkbox" id="es" name="idiomas">
                 <label for="es">Español</label>
                 <input type="checkbox" id="ca" name="idiomas">
@@ -47,11 +54,11 @@
                 <input type="checkbox" id="en" name="idiomas">
                 <label for="en">Inglés</label>
                 <input type="checkbox" id="cn" name="idiomas">
-                <label for="cn">Chino</label><br>
+                <label for="cn">Chino</label>
             </fieldset>
             <div>
-                <br><button type="submit">Enviar</button>
-                <button type="reset">Cancelar</button><br>
+                <br><button type="submit" id="env">Enviar</button>
+                <button type="reset" id="res">Cancelar</button>
             </div>
         </form>
     </body>
