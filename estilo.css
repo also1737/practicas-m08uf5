@@ -17,6 +17,10 @@ a:active{
 	color: blue;
 }
 
+a:visited {
+	color: rgb(0, 117, 252);
+}
+
 h1 {
 	font-family: "Audiowide", sans-serif;
 	text-align:center;
