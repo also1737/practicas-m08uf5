@@ -4,6 +4,7 @@ body {
     background-image: url(../imagenes/3-ej1/mapa.webp);
     background-attachment: fixed;
     background-size: cover;
+    background-position: 0px -40px;
 }
 
 h1 {
@@ -27,21 +28,46 @@ form {
     margin: auto;
     background-color: #444;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     line-height: 30px;
 }
 
 fieldset {
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     border-width: 5px;
     border-style: solid;
     padding-bottom: 30px;
 }
 
 input {
+    background-color: #bbb;
     border-radius: 0px;
-    border-style: none;
+    border-style: solid;
+    border-color: #777;
     padding-left: 7px;
+    outline: none;
+    transition: 0.5s;
+}
+
+select {
+    background-color: #bbb;
+    border: 2px solid transparent;
+}
+
+option:hover {
+    background-color: rgb(201, 46, 46);
+}
+
+input:hover {
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+}
+
+input:focus {
+    border-color:  rgb(0, 183, 255);
+    border-style: solid;
+    border-width: 2px;
 }
 
 label {
@@ -53,9 +79,7 @@ button {
     width: 100px;
     margin: 0px 10px;
     font-size: 18px;
-    border-color: black;
-    border-style: solid;
-    border-width: 3px;
+    border-style: none;
     border-radius: 5px;
 }
 
@@ -74,15 +98,23 @@ div {
 }
 
 #nombre {
-    width: 50%;
+    width: 98%;
+    height: 30px;
+    margin-right: 5px;
 }
 
 #altura {
     width: 60px;
+    height: 30px;
 }
 
 #email {
     width: 50%;
+    height: 30px;
+}
+
+#fecha {
+    height: 30px;
 }
 
 #nac {
@@ -114,6 +146,10 @@ div {
 #estudios {
     width: 200px;
     height: 36px;
+    border-radius: 0px;
+    border-style: none;
+    padding-left: 7px;
+
 }
 
 #idi {
@@ -122,10 +158,21 @@ div {
     padding-inline: 20px;
 }
 
-#env:hover {
+#env {
+    transition: 0.5s;
     background-color: rgb(0, 255, 0);
 }
 
-#res:hover {
+#env:hover {
+    background-color: rgb(2, 201, 2);
+}
+
+#res {
+    transition: 0.5s;
+    color: white;
     background-color: #f00;
+}
+
+#res:hover {
+    background-color: rgb(201, 2, 2);
 }
