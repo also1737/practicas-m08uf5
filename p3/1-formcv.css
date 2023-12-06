@@ -1,4 +1,7 @@
 body {
+    overflow: auto;
+    scrollbar-color: #f00;
+    scrollbar-width: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 20px;
     background-image: url(../imagenes/3-ej1/mapa.webp);
@@ -47,6 +50,18 @@ input {
     padding-left: 7px;
     outline: none;
     transition: 0.5s;
+}
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    accent-color: orange;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    accent-color: red;
 }
 
 select {
@@ -128,7 +143,7 @@ div {
 }
 
 #c-nac {
-    margin: 0px 120px;
+    margin: 0px 110px;
     text-align: center;
     height: auto;
 }
@@ -158,19 +173,28 @@ div {
     padding-inline: 20px;
 }
 
+#grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+}
+
+#es {
+    text-align: left;
+}
+
 #env {
     transition: 0.5s;
-    background-color: rgb(0, 255, 0);
+    color: white;
+    background-color: rgb(112, 0, 156);
 }
 
 #env:hover {
-    background-color: rgb(2, 201, 2);
+    background-color: rgb(146, 0, 204);
 }
 
 #res {
     transition: 0.5s;
-    color: white;
-    background-color: #f00;
 }
 
 #res:hover {
