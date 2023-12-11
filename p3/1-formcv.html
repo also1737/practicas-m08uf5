@@ -2,7 +2,6 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="../estilo-practicas.css">
         <link rel="stylesheet" href="1-formcv.css">
         <title>Formulario</title>
     </head>
@@ -15,7 +14,7 @@
                 <label for="nombre">Tu nombre<span class="obli"> *</span></label><br>
                 <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre..." autofocus required><br><br>
                 <label for="altura">Altura en centímetros</label><br>
-                <input type="number" id="altura" name="altura" min="1" max="300" value="160"><br><br>
+                <input type="number" id="altura" name="altura" min="1" max="300" value="165"><br><br>
                 <label for="email">Tu dirección de correo<span class="obli"> *</span></label><br>
                 <input type="email" id="email" name="email" placeholder="direccion@dominio.com" required><br><br>
                 <label for="fecha">Fecha de nacimiento<span class="obli"> *</span></label><br>
@@ -23,18 +22,20 @@
             </fieldset>
             <fieldset id="nac">
                 <legend><h2>Nacionalidad<span class="obli"> *</span></h2></legend>
-                <span id="l-nac">
-                    <input type="radio" id="espanol" name="nacionalidad" required>
-                    <label for="español">Español</label>
-                </span>
-                <span id="c-nac">
-                    <input type="radio" id="com-ue" name="nacionalidad" required>
-                    <label for="com-ue">Comunitario (UE)</label>
-                </span>
-                <span id="r-nac">
-                    <input type="radio" id="no-com" name="nacionalidad" required>
-                    <label for="no-com">No comunitario</label>
-                </span>
+                <div id="grid">
+                    <span>
+                        <input type="radio" id="espanol" name="nacionalidad" required>
+                        <label for="español">Español</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="com-ue" name="nacionalidad" required>
+                        <label for="com-ue">Comunitario (UE)</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="no-com" name="nacionalidad" required>
+                        <label for="no-com">No comunitario</label>
+                    </span>
+                </div>
             </fieldset>
             <fieldset id="est">
                 <legend><h2>Estudios</h2></legend>
@@ -48,7 +49,7 @@
             </fieldset>
             <fieldset id="idi">
                 <legend><h2>Idiomas<span class="obli"> *</span></h2></legend>
-                <div id="grid">
+                <div id="grid2">
                     <label> <input type="checkbox" id="es" name="idiomas"> Español</label>
                     <label> <input type="checkbox" id="ca" name="idiomas"> Catalán</label>
                     <label> <input type="checkbox" id="en" name="idiomas"> Inglés</label>
