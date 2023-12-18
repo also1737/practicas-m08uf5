@@ -71,7 +71,6 @@ input::placeholder {
 input[type=radio] {
     box-sizing: border-box;
     font-size: 2em;
-    line-height: ;
     appearance: none;
     width: 20px;
     height: 20px;
