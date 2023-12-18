@@ -24,15 +24,15 @@
                 <legend><h2>Nacionalidad<span class="obli"> *</span></h2></legend>
                 <div id="grid">
                     <span>
-                        <input type="radio" id="espanol" name="nacionalidad" required>
-                        <label for="español">Español</label>
+                        <input type="radio" id="espanol" value="Español" name="nacionalidad" required>
+                        <label for="espanol">Español</label>
                     </span>
                     <span>
-                        <input type="radio" id="com-ue" name="nacionalidad" required>
+                        <input type="radio" id="com-ue" value="Comunitario" name="nacionalidad" required>
                         <label for="com-ue">Comunitario (UE)</label>
                     </span>
                     <span>
-                        <input type="radio" id="no-com" name="nacionalidad" required>
+                        <input type="radio" id="no-com" value="No comunitario" name="nacionalidad" required>
                         <label for="no-com">No comunitario</label>
                     </span>
                 </div>
@@ -41,24 +41,25 @@
                 <legend><h2>Estudios</h2></legend>
                 <select id="estudios" name="estudios">
                     <option value="">Escoge una opción...</option>
-                    <option value="eso">ESO</option>
-                    <option value="gm">GM</option>
-                    <option value="gs">GS</option>
-                    <option value="uni">Universidad</option>
+                    <option value="ESO">ESO</option>
+                    <option value="Grado Medio">GM</option>
+                    <option value="Grado Superior">GS</option>
+                    <option value="Universidad">Universidad</option>
                 </select>
             </fieldset>
             <fieldset id="idi">
                 <legend><h2>Idiomas<span class="obli"> *</span></h2></legend>
                 <div id="grid2">
-                    <label> <input type="checkbox" id="es" name="idiomas"> Español</label>
-                    <label> <input type="checkbox" id="ca" name="idiomas"> Catalán</label>
-                    <label> <input type="checkbox" id="en" name="idiomas"> Inglés</label>
-                    <label> <input type="checkbox" id="cn" name="idiomas"> Chino</label>
+                    <label> <input type="checkbox" id="es" value="ES" name="idiomas[]"> Español</label>
+                    <label> <input type="checkbox" id="ca" value="CA" name="idiomas[]"> Catalán</label>
+                    <label> <input type="checkbox" id="en" value="EN" name="idiomas[]"> Inglés</label>
+                    <label> <input type="checkbox" id="cn" value="CN" name="idiomas[]"> Chino</label>
+                    <label> <input type="checkbox" id="kl" value="KL" name="idiomas[]"> Klingon</label>
                 </div>
             </fieldset>
             <div>
                 <br><button type="submit" id="env">Enviar</button>
-                <button type="reset" id="res">Cancelar</button>
+                <button type="reset" id="res">Borrar</button>
             </div>
         </form>
     </body>

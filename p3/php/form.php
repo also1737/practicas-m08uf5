@@ -4,7 +4,7 @@ $informacion_basica =  ["Nombre"=>$_GET["nombre"],"Altura"=>$_GET["altura"],"Ema
 echo "<h2>Informacion basica</h2>";
 
 foreach ($informacion_basica as $key => $value) {
-    echo "<b>$key</b>: $value <br>";
+    echo "<b>$key</b>: $value <br><br>";
 }
 
 echo "<h2>Nacionalidad</h2>";
