@@ -1,0 +1,76 @@
+/* Página web Github */
+body{
+	background-color: #222222;
+	color: white;
+	margin: 0px;	
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: cyan;
+}
+
+a:active{
+	color: blue;
+}
+
+a:visited {
+	color: rgb(0, 117, 252);
+}
+
+h1 {
+	font-family: "Audiowide", sans-serif;
+	text-align:center;
+	background-color: rgb(15, 28, 104);
+	margin: 0%;
+	line-height: 4cm;
+	font-size: 60px;
+	background-image: url(imagenes/istockphoto-512250305-612x612.jpg);
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	background-color: #450045;
+	margin: 0%;
+	line-height: 2cm;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid none solid none;
+}
+
+ul {
+	margin-top: 5px;
+	list-style-type: none;
+	padding: 10px;
+}
+
+li {
+	display: block;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	background-color: #444;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	transition: 0.3s ease-in-out;
+}
+
+li:hover {
+	background-color: #666;
+	font-size: 18px;
+}
+
+.grid-container {
+	display: grid; 
+	grid-template-columns: 33% 34% 33%;
+}
+
+.right {
+	border-left: white solid 3px;
+}
