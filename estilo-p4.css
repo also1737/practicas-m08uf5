@@ -34,6 +34,18 @@ header {
 	background-image: url(imagenes/istockphoto-512250305-612x612.jpg);
 }
 
+section {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
+}
+
+/*section::after {
+	content: "";
+	display: table;
+	clear: both;
+}*/
+
 header span {
 	float: left;
 }
@@ -47,16 +59,14 @@ img {
 
 nav {
 	background-color: #707;
-	float: left;
-	width: 20%;
 	height: auto;
+	box-sizing: border-box;
 	margin: 15px;
 }
 
-main {
+article {
 	background-color: #444;
-	float: left;
-	width: 60%;
+	box-sizing: border-box;
 	height: auto;
 	margin: 15px;
 }
@@ -72,7 +82,7 @@ nav li {
 	font-size: 16px;
 }
 
-main li {
+article li {
 	display: block;
 	font-size: 16px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -83,9 +93,9 @@ main li {
 
 aside {
 	background-color: #994;
-	float: left;
-	width: 20%;
 	height: auto;
+	box-sizing: border-box;
+	margin: 15px;
 }
 
 footer {
